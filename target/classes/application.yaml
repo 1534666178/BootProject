@@ -1,0 +1,16 @@
+#person:
+##  name: 1534666178
+##  age: 15
+##  gender: 男
+##  happy: false
+##  hello: 旺财
+##  birthday: 2021/07/08
+##  maps: {name: 张三,age: 18}
+##  lists:
+##    - code
+##    - music
+##    - girl
+##  dog:
+##    name: ${person.hello:hello}_旺财 #如果有hello就显示它的值,没有就显示后面的默认值
+##    age: 3
+
