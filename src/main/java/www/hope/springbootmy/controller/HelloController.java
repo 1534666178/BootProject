@@ -21,7 +21,7 @@ public class HelloController {
         Map<String,Object> map = new HashMap();
         map.put("name", "张三");
         map.put("age", 14);
-        map.put("localcation", "四川");
+        map.put("location", "四川");
         map.put("gender", "男");
         return map;
     }
